@@ -1,0 +1,565 @@
+<%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>BreezyCV - Resume / CV / vCard Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="BreezyCV - Resume / CV / vCard Template" />
+    <meta name="keywords" content="vcard, resposnive, retina, resume, jquery, css3, bootstrap, Material CV, portfolio" />
+    <meta name="author" content="lmpixels" />
+    <link rel="shortcut icon" href="favicon.ico">
+
+
+    <link rel="stylesheet" href="css/reset.css" type="text/css">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css" type="text/css">
+    <link rel="stylesheet" href="css/animations.css" type="text/css">
+    <link rel="stylesheet" href="css/perfect-scrollbar.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.carousel.css" type="text/css">
+    <link rel="stylesheet" href="./css/magnific-popup.css" type="text/css">
+    <link rel="stylesheet" href="./css/main.css" type="text/css">
+
+    <script src="js/modernizr.custom.js"></script>
+</head>
+
+<body>
+<!-- Animated Background -->
+<div class="lm-animated-bg" style="background-image: url(img/main_bg.png);"></div>
+<!-- /Animated Background -->
+
+<!-- Loading animation -->
+<div class="preloader">
+    <div class="preloader-animation">
+        <div class="preloader-spinner">
+        </div>
+    </div>
+</div>
+<!-- /Loading animation -->
+
+<div class="page">
+    <div class="page-content">
+        <header id="site_header" class="header mobile-menu-hide">
+            <div class="header-content">
+                <div class="header-photo">
+                    <img src="https://c1.staticflickr.com/8/7345/13088214024_2b30fe3960.jpg" alt="Aslan Team">
+                </div>
+                <div class="header-titles">
+                    <h2>Aslan Team</h2>
+                    <h4>Group 4</h4>
+                </div>
+            </div>
+
+            <ul class="main-menu">
+                <li class="active">
+                    <a href="#home" class="nav-anim">
+                        <span class="menu-icon lnr lnr-home"></span>
+                        <span class="link-text">Home</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#about-me" class="nav-anim">
+                        <span class="menu-icon lnr lnr-user"></span>
+                        <span class="link-text">About Us</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#resume" class="nav-anim">
+                        <span class="menu-icon lnr lnr-briefcase"></span>
+                        <span class="link-text">Exercises</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#contact" class="nav-anim">
+                        <span class="menu-icon lnr lnr-envelope"></span>
+                        <span class="link-text">Contact</span>
+                    </a>
+                </li>
+            </ul>
+
+            <div class="social-links">
+                <ul>
+                    <li><a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+                    <li><a href="https://www.facebook.com/hieudankaz/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                </ul>
+            </div>
+
+            <div class="copyrights"> HCM University of Education and Technology</div>
+        </header>
+
+        <!-- Mobile Navigation -->
+        <div class="menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <!-- End Mobile Navigation -->
+
+        <!-- Arrows Nav -->
+        <div class="lmpixels-arrows-nav">
+            <div class="lmpixels-arrow-right"><i class="lnr lnr-chevron-right"></i></div>
+            <div class="lmpixels-arrow-left"><i class="lnr lnr-chevron-left"></i></div>
+        </div>
+        <!-- End Arrows Nav -->
+
+        <div class="content-area">
+            <div class="animated-sections">
+                <!-- Home Subpage -->
+                <section data-id="home" class="animated-section start-page">
+                    <div class="section-content vcentered">
+
+                        <div class="row">
+                            <div class="col-sm-12 col-md-12 col-lg-12">
+                                <div class="title-block">
+                                    <h2>Aslan Team</h2>
+                                    <div class="owl-carousel text-rotation">
+                                        <div class="item">
+                                            <div class="sp-subtitle">Web Programing</div>
+                                        </div>
+
+                                        <div class="item">
+                                            <div class="sp-subtitle">HCM University of Technology and Education</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </section>
+                <!-- End of Home Subpage -->
+
+                <!-- About Me Subpage -->
+                <section data-id="about-me" class="animated-section">
+                    <div class="page-title">
+                        <h2>About <span>Us</span></h2>
+                    </div>
+
+                    <div class="section-content">
+                        <!-- Personal Information -->
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-7">
+                                <p>Nguyễn Hiếu Đan - 19110345</br>
+                                    Dương Đức Thắng - 19110456</br>
+                                    Ninh Phạm Trung Thành - 19110461</br>
+                                    Nguyễn Đại Phát - 19110425</br></br>
+                                    Nhóm 4, lớp lập trình Web chiều thứ 3 (tiết 7-10)</br>
+                                    Giảng viên hướng dẫn: cô Mai Anh Thơ
+                                </p>
+                            </div>
+
+                            <div class="col-xs-12 col-sm-5">
+                                <div class="info-list">
+                                    <ul>
+                                        <li>
+                                            <span class="title">Age</span>
+                                            <span class="value">20</span>
+                                        </li>
+
+                                        <li>
+                                            <span class="title">Residence</span>
+                                            <span class="value">Viet Nam</span>
+                                        </li>
+
+                                        <li>
+                                            <span class="title">Address</span>
+                                            <span class="value">1 Võ Văn Ngân, Linh Chiểu, Thủ Đức City</span>
+                                        </li>
+
+                                        <li>
+                                            <span class="title">e-mail</span>
+                                            <span class="value">binbin0011k@gmail.com</span>
+                                        </li>
+
+                                        <li>
+                                            <span class="title">Phone</span>
+                                            <span class="value">+123456789</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End of Personal Information -->
+
+                        <div class="white-space-50"></div>
+
+                        <!-- Services -->
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-12">
+                                <div class="block-title">
+                                    <h3>What <span>We Do</span></h3>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-6">
+                                <div class="col-inner">
+                                    <div class="info-list-w-icon">
+                                        <div class="info-block-w-icon">
+                                            <div class="ci-icon">
+                                                <i class="lnr lnr-store"></i>
+                                            </div>
+                                            <div class="ci-text">
+                                                <h4>Ecommerce - Final Project</h4>
+                                                <p>Furniture Online: Buy Wooden Furniture Online For Home & Office. Affordable Range of Funitures Online for ... Shop From The Popular Wooden Furniture Store!</p>
+                                            </div>
+                                        </div>
+                                        <div class="info-block-w-icon">
+                                            <div class="ci-icon">
+                                                <i class="lnr lnr-laptop-phone"></i>
+                                            </div><div class="ci-text">
+                                            <h4>Web Design</h4>
+                                            <p>Design UX/UI for our Project and Exercises</p>
+                                        </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-xs-12 col-sm-6">
+                                <div class="col-inner">
+                                    <div class="info-list-w-icon">
+                                        <div class="info-block-w-icon">
+                                            <div class="ci-icon">
+                                                <i class="lnr lnr-pencil"></i>
+                                            </div>
+                                            <div class="ci-text">
+                                                <h4>Exercises</h4>
+                                                <p>Homework also gives you valuable practice with what you've learned in the classroom. Often, the brief period of time you have during class to learn something</p>
+                                            </div>
+                                        </div>
+                                        <div class="info-block-w-icon">
+                                            <div class="ci-icon">
+                                                <i class="lnr lnr-flag"></i>
+                                            </div><div class="ci-text">
+                                            <h4>Management</h4>
+                                            <p>Manage DB, Project and learn to work with our team</p>
+                                        </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End of Services -->
+
+                        <div class="white-space-30"></div>
+
+                        <!-- Testimonials -->
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-12">
+                                <div class="block-title">
+                                    <h3>Members</h3>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-12">
+                                <div class="testimonials owl-carousel">
+                                    <!-- Testimonial 1 -->
+                                    <div class="testimonial">
+                                        <div class="img">
+                                            <img src="img/testimonials/testimonial-1.jpg" alt="Aslan Team">
+                                        </div>
+                                        <div class="text">
+                                            <p>One of my team</br>
+                                                He always has a positive attitude to teamwork.</br>
+                                            </p>
+                                        </div>
+
+                                        <div class="author-info">
+                                            <h4 class="author">Nguyễn Đại Phát</h4>
+                                            <h5 class="company">19110425</h5>
+                                        </div>
+                                    </div>
+                                    <!-- End of Testimonial 1 -->
+
+                                    <!-- Testimonial 2 -->
+                                    <div class="testimonial">
+                                        <div class="img">
+                                            <img src="img/testimonials/testimonial-1.jpg" alt="Aslan Team">
+                                        </div>
+                                        <div class="text">
+                                            <p>One of my team</br>
+                                                He always has a positive attitude to teamwork.</br>
+                                            </p>
+                                        </div>
+                                        <div class="author-info">
+                                            <h4 class="author">Ninh Phạm Trung Thành</h4>
+                                            <h5 class="company">19110345</h5>
+
+                                        </div>
+                                    </div>
+                                    <!-- End of Testimonial 2 -->
+
+                                    <!-- Testimonial 3 -->
+                                    <div class="testimonial">
+                                        <div class="img">
+                                            <img src="img/testimonials/testimonial-1.jpg" alt="Aslan Team">
+                                        </div>
+                                        <div class="text">
+                                            <p>One of my team</br>
+                                                He always has a positive attitude to teamwork.</br>
+                                            </p>
+                                        </div>
+                                        <div class="author-info">
+                                            <h4 class="author">Dương Đức Thắng</h4>
+                                            <h5 class="company">19110461</h5>
+
+                                        </div>
+                                    </div>
+                                    <!-- End of Testimonial 4 -->
+                                    <!-- Testimonial 3 -->
+                                    <div class="testimonial">
+                                        <div class="img">
+                                            <img src="img/testimonials/testimonial-2.jpg" alt="Aslan Team">
+                                        </div>
+                                        <div class="text">
+                                            <p>One of my team</br>
+                                                He always has a positive attitude to teamwork.</br>
+                                            </p>
+                                        </div>
+                                        <div class="author-info">
+                                            <h4 class="author">Nguyễn Hiếu Đan</h4>
+                                            <h5 class="company">19110345</h5>
+
+                                        </div>
+                                    </div>
+                                    <!-- End of Testimonial 4 -->
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End of Testimonials -->
+                        <div class="white-space-50"></div>
+                    </div>
+                </section>
+                <!-- End of About Me Subpage -->
+
+                <!-- Resume Subpage -->
+                <section data-id="resume" class="animated-section">
+                    <div class="page-title">
+                        <h2>Exercises</h2>
+                    </div>
+
+                    <div class="section-content">
+
+                        <div class="row">
+                            <div class="">
+
+                                <div class="block-title">
+                                    <h3>Education</h3>
+                                </div>
+
+                                <div class="timeline timeline-second-style clearfix">
+                                    <div class="timeline-item clearfix">
+                                        <div class="left-part">
+                                            <h5 class="item-period"><a href="#"  class="success">Exercise 1</a></h5>
+                                            <span class="item-company">Aslan Team</span>
+                                        </div>
+                                        <div class="divider backround-success" ></div>
+                                        <div class="right-part">
+                                            <h4 class="item-title"><a href="#" class="exercise">How to work with NetBeans and Tomcat</a></h4>
+                                            <p>Write a simple application with JSP and Servlet in 3 ways:
+                                                using only JSP,
+                                                using only Servlet
+                                                and combining JSP and Servlet in MVC framework</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="timeline-item clearfix">
+                                        <div class="left-part">
+                                            <h5 class="item-period"><a href="#" class="success">Exercise 2</a></h5>
+                                            <span class="item-company">Aslan Team</span>
+                                        </div>
+                                        <div class="divider backround-success"></div>
+                                        <div class="right-part">
+                                            <h4 class="item-title"><a href="#" class="exercise">A crash course in HTML5 and CSS3</a></h4>
+                                            <p>Step 1: Think and discuss about an web application that may be needed for UTE (faculty, department) or others
+                                                </br> Step 2: Get requirements from for web application in B1.
+                                                </br> Step 3: Analyze requirements and design functional diagrams for the above application.</p></div>
+                                    </div>
+                                    <div class="timeline-item clearfix">
+                                        <div class="left-part">
+                                            <h5 class="item-period"><a href="#" class="none-success">Exercise 3</a></h5>
+                                            <span class="item-company">Aslan Team</span>
+                                        </div>
+                                        <div class="divider"></div>
+                                        <div class="right-part">
+                                            <h4 class="item-title"><a href="#" class="exercise">How to develop servlets</a></h4>
+                                            <p>Design prototype (UI- User interface) for web application in Exercise #2.</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="timeline-item clearfix">
+                                        <div class="left-part">
+                                            <h5 class="item-period"><a href="#" class="none-success">Exercise 4</a></h5>
+                                            <span class="item-company">Aslan Team</span>
+                                        </div>
+                                        <div class="divider"></div>
+                                        <div class="right-part">
+                                            <h4 class="item-title"><a href="#" class="exercise">How to work with sessions and cookies</a></h4>
+                                            <p>Complete the user interface for web application in Exercise #3 according to the teacher's suggestions.</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="timeline-item clearfix">
+                                        <div class="left-part">
+                                            <h5 class="item-period"><a href="#" class="none-success">Exercise 5</a></h5>
+                                            <span class="item-company">Aslan Team</span>
+                                        </div>
+                                        <div class="divider"></div>
+                                        <div class="right-part">
+                                            <h4 class="item-title"><a href="#" class="exercise">How to use Expression Language</a></h4>
+                                            <p>Using JSP, JavaScript, Jquery, Bootstrap... to design the website interface
+                                                (according to the prototype in Exercise #4)</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="timeline-item clearfix">
+                                        <div class="left-part">
+                                            <h5 class="item-period"><a href="#" class="none-success">Exercise 6</a></h5>
+                                            <span class="item-company">Aslan Team</span>
+                                        </div>
+                                        <div class="divider"></div>
+                                        <div class="right-part">
+                                            <h4 class="item-title"><a href="#" class="exercise">Final Project</a></h4>
+                                            <p>Implement the complete web application based on all mini-exercises (Exercise #1 to #5)
+                                                Deploy web application to a free host (eg Heroku or any other hosting)</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="white-space-50"></div>
+                    </div>
+                </section>
+                <!-- End of Resume Subpage -->
+                <!-- Contact Subpage -->
+                <section data-id="contact" class="animated-section">
+                    <div class="page-title">
+                        <h2>Contact</h2>
+                    </div>
+
+                    <div class="section-content">
+
+                        <div class="row">
+                            <!-- Contact Info -->
+                            <div class="col-xs-12 col-sm-4">
+                                <div class="lm-info-block gray-default">
+                                    <i class="lnr lnr-map-marker"></i>
+                                    <h4>1, Võ Văn Ngân</h4>
+                                    <span class="lm-info-block-value"></span>
+                                    <span class="lm-info-block-text"></span>
+                                </div>
+
+                                <div class="lm-info-block gray-default">
+                                    <i class="lnr lnr-phone-handset"></i>
+                                    <h4>123-456-789</h4>
+                                    <span class="lm-info-block-value"></span>
+                                    <span class="lm-info-block-text"></span>
+                                </div>
+
+                                <div class="lm-info-block gray-default">
+                                    <i class="lnr lnr-envelope"></i>
+                                    <h4>binbin0011k@gmail.com</h4>
+                                    <span class="lm-info-block-value"></span>
+                                    <span class="lm-info-block-text"></span>
+                                </div>
+
+                                <div class="lm-info-block gray-default">
+                                    <i class="lnr lnr-checkmark-circle"></i>
+                                    <h4>Aslan Team</h4>
+                                    <span class="lm-info-block-value"></span>
+                                    <span class="lm-info-block-text"></span>
+                                </div>
+
+
+                            </div>
+                            <!-- End of Contact Info -->
+
+                            <!-- Contact Form -->
+                            <div class="col-xs-12 col-sm-8">
+
+                                <div id="map-1" class="map-1">
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3295.0395315810324!2d106.76966971478097!3d10.850709627353117!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752763f23816ab%3A0x282f711441b6916f!2zVHLGsOG7nW5nIMSQ4bqhaSBo4buNYyBTxrAgcGjhuqFtIEvhu7kgdGh14bqtdCBUaMOgbmggcGjhu5EgSOG7kyBDaMOtIE1pbmg!5e0!3m2!1svi!2s!4v1631630500156!5m2!1svi!2s"
+                                            width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                                </div>
+                                <div class="block-title">
+                                    <h3>How Can I <span>Help You?</span></h3>
+                                </div>
+
+                                <form id="contact_form" class="contact-form" action="/" method="post">
+                                    <div class="messages"></div>
+                                    <div class="controls two-columns">
+                                        <div class="fields clearfix">
+                                            <div class="left-column">
+                                                <div class="form-group form-group-with-icon">
+                                                    <input id="form_name" type="text" name="name" class="form-control" placeholder="" required="required" data-error="Name is required.">
+                                                    <label>Full Name</label>
+                                                    <div class="form-control-border"></div>
+                                                    <div class="help-block with-errors"></div>
+                                                </div>
+
+                                                <div class="form-group form-group-with-icon">
+                                                    <input id="form_email" type="email" name="email" class="form-control" placeholder="" required="required" data-error="Valid email is required.">
+                                                    <label>Email Address</label>
+                                                    <div class="form-control-border"></div>
+                                                    <div class="help-block with-errors"></div>
+                                                </div>
+
+                                                <div class="form-group form-group-with-icon">
+                                                    <input id="form_subject" type="text" name="subject" class="form-control" placeholder="" required="required" data-error="Subject is required.">
+                                                    <label>Subject</label>
+                                                    <div class="form-control-border"></div>
+                                                    <div class="help-block with-errors"></div>
+                                                </div>
+                                            </div>
+                                            <div class="right-column">
+                                                <div class="form-group form-group-with-icon">
+                                                    <textarea id="form_message" name="message" class="form-control" placeholder="" rows="7" required="required" data-error="Please, leave me a message."></textarea>
+                                                    <label>Message</label>
+                                                    <div class="form-control-border"></div>
+                                                    <div class="help-block with-errors"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="g-recaptcha" data-sitekey="6LdqmCAUAAAAAMMNEZvn6g4W5e0or2sZmAVpxVqI"></div>
+
+                                        <input type="submit" class="button btn-send" value="Send message">
+                                    </div>
+                                </form>
+                            </div>
+                            <!-- End of Contact Form -->
+                        </div>
+
+                    </div>
+                </section>
+                <!-- End of Contact Subpage -->
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<script src="js/jquery-2.1.3.min.js"></script>
+<script src="js/modernizr.custom.js"></script>
+<script src="js/animating.js"></script>
+
+<script src="js/imagesloaded.pkgd.min.js"></script>
+<script src='https://www.google.com/recaptcha/api.js'></script>
+
+<script src='js/perfect-scrollbar.min.js'></script>
+<script src='js/jquery.shuffle.min.js'></script>
+<script src='js/masonry.pkgd.min.js'></script>
+<script src='js/owl.carousel.min.js'></script>
+<script src="js/jquery.magnific-popup.min.js"></script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCrDf32aQTCVENBhFJbMBKOUTiUAABtC2o"></script>
+<script src="js/jquery.googlemap.js"></script>
+<script src="js/validator.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
