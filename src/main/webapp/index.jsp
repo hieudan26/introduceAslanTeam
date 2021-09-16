@@ -17,8 +17,8 @@
     <link rel="stylesheet" href="css/animations.css" type="text/css">
     <link rel="stylesheet" href="css/perfect-scrollbar.css" type="text/css">
     <link rel="stylesheet" href="css/owl.carousel.css" type="text/css">
-    <link rel="stylesheet" href="./css/magnific-popup.css" type="text/css">
-    <link rel="stylesheet" href="./css/main.css" type="text/css">
+    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
+    <link rel="stylesheet" href="css/main.css" type="text/css">
 
     <script src="js/modernizr.custom.js"></script>
 </head>
@@ -355,12 +355,12 @@
                                 <div class="timeline timeline-second-style clearfix">
                                     <div class="timeline-item clearfix">
                                         <div class="left-part">
-                                            <h5 class="item-period"><a href="#"  class="success">Exercise 1</a></h5>
+                                            <h5 class="item-period"><a href="https://todolist-signup-in.herokuapp.com/"  class="success">Exercise 1</a></h5>
                                             <span class="item-company">Aslan Team</span>
                                         </div>
                                         <div class="divider backround-success" ></div>
                                         <div class="right-part">
-                                            <h4 class="item-title"><a href="#" class="exercise">How to work with NetBeans and Tomcat</a></h4>
+                                            <h4 class="item-title"><a href="https://todolist-signup-in.herokuapp.com/" class="exercise">How to work with NetBeans and Tomcat</a></h4>
                                             <p>Write a simple application with JSP and Servlet in 3 ways:
                                                 using only JSP,
                                                 using only Servlet
@@ -490,8 +490,10 @@
                                     <h3>How Can I <span>Help You?</span></h3>
                                 </div>
 
-                                <form id="contact_form" class="contact-form" action="/" method="post">
+                                <form id="contact_form" class="contact-form" action="/contact" method="post">
+
                                     <div class="messages"></div>
+
                                     <div class="controls two-columns">
                                         <div class="fields clearfix">
                                             <div class="left-column">

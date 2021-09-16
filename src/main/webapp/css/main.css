@@ -1358,7 +1358,7 @@ textarea.form-control, textarea.form-control:focus {
   list-style: none;
 }
 
-.knowledges li {;
+.knowledges li {
   display: inline-block;
   background-color: #fca072;
   border-radius: 3px;
@@ -1442,7 +1442,7 @@ textarea.form-control, textarea.form-control:focus {
 }
 /* --- End of Contact Form --- */
 
-.map {
+.map-1 {
   width: 100%;
   height: 140px;
   margin: 0 0 35px;
@@ -2895,7 +2895,6 @@ blockquote {
   }
 }
 
-
 .success{
   color: rgb(3, 132, 218);
 }
@@ -2909,4 +2908,5 @@ blockquote {
 a.exercise{
   color: black;
 }
+
 

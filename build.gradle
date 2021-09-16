@@ -3,7 +3,7 @@ plugins {
     id 'war'
 }
 
-group 'com.example'
+group 'com'
 version '1.0-SNAPSHOT'
 
 repositories {
@@ -30,8 +30,6 @@ dependencies {
     implementation 'javax.mail:mail:1.4.7'
 // https://mvnrepository.com/artifact/javax.activation/activation
     implementation 'javax.activation:activation:1.1.1'
-
-
 }
 
 test {

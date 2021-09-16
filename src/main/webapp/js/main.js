@@ -11,7 +11,7 @@
     function portfolio_init() {
         var portfolio_grid = $('.portfolio-grid'),
             portfolio_filter = $('.portfolio-filters');
-
+            
         if (portfolio_grid) {
 
             portfolio_grid.shuffle({
@@ -71,7 +71,7 @@
 
         $('#contact_form').on('submit', function (e) {
             if (!e.isDefaultPrevented()) {
-                var url = "/";
+                var url = "/contact";
 
                 $.ajax({
                     type: "POST",
