@@ -2896,7 +2896,7 @@ blockquote {
 }
 
 .success{
-  color: rgb(3, 132, 218);
+  color: rgb(3, 132, 218) !important;
 }
 .none-success{
   color: red;
