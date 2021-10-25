@@ -2909,4 +2909,12 @@ a.exercise{
   color: black;
 }
 
+.baocao-pdf {
+  cursor: pointer; 
+  margin-bottom: 10px; 
+  text-align: center;
+}
 
+.baocao-pdf:hover {
+  color: #FCA072;
+}
